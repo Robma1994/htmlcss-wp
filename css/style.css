@@ -111,9 +111,10 @@ div p{
 }
 
 /*Main basso sinistra*/
-
+.box{
+    position: relative;
+}
 .sinistra, .destra{
-    height: 200px;
     position: relative;
     float: left;
     width: calc((100% / 5) *1)
@@ -126,13 +127,7 @@ div p{
     border-radius: 10px;
 }
 
-.overlay-main-basso{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.2);
-}
+
 
 
 
@@ -142,7 +137,6 @@ div p{
 /*Main basso centro*/
 
 .centro{
-    height: 200px;
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
@@ -181,9 +175,15 @@ div p{
 
 /* Inizio Footer*/
 footer{
-    background-color: purple;
-    height: 40px;
+    width: 100%;
+    height: 30px;
 }
+
+footer p{
+    text-align: center;
+    color: black;
+}
+
 
 /* Fine Footer*/
 
